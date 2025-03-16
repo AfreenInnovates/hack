@@ -1,0 +1,350 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b2e; /* Dark background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #4db8ff, #0077cc);
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #38a6ff, #0055aa);
+}
+
+/* Global Styles */
+.home-container {
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0d0d2b 0%, #10102f 100%);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #4db8ff;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.85;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: #4db8ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.2s;
+}
+
+.cta-button:hover {
+  background: #3aa7e0;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #161634;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h2 {
+  font-size: 1.5rem;
+  color: #4db8ff;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 80px 10%;
+}
+
+.how-it-works .steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.step {
+  background: #1b1b4b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.step:hover {
+  transform: scale(1.05);
+}
+
+.step-number {
+  display: block;
+  font-size: 2rem;
+  color: #4db8ff;
+  font-weight: bold;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 80px 10%;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4db8ff;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.gallery-item {
+  background: #1b1b4b;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 300px;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Pricing Section */
+/* Pricing Section */
+.pricing {
+  padding: 100px 10%;
+  text-align: center;
+  background: linear-gradient(135deg, #0b0b2e 0%, #111144 100%);
+}
+
+.pricing h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4db8ff;
+  margin-bottom: 20px;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+/* Pricing Card */
+.pricing-card {
+  background: rgba(20, 20, 50, 0.85); /* Glass effect */
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(77, 184, 255, 0.2);
+}
+
+/* Plan Title */
+.pricing-card h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4db8ff;
+  margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 15px 0;
+  background: linear-gradient(90deg, #4db8ff, #38a6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Plan Features */
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-card ul li {
+  font-size: 1rem;
+  color: #cccccc;
+  margin: 8px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.pricing-card ul li::before {
+  content: "✔";
+  color: #4db8ff;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Subscribe Button */
+.subscribe-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.subscribe-button:hover {
+  transform: scale(1.07);
+}
+
+.pricing-card:nth-child(1) .subscribe-button {
+  background: #2c2c6c;
+  color: #ffffff;
+}
+
+.pricing-card:nth-child(2) .subscribe-button {
+  background: #4db8ff;
+  color: #000;
+}
+
+.pricing-card:nth-child(3) .subscribe-button {
+  background: #2c2c6c;
+  color: #ffffff;
+}
+
+.pricing-card:nth-child(1) .subscribe-button:hover {
+  background: #3c3c7c;
+}
+
+.pricing-card:nth-child(2) .subscribe-button:hover {
+  background: #38a6ff;
+}
+
+.pricing-card:nth-child(3) .subscribe-button:hover {
+  background: #3c3c7c;
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: #4db8ff;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  width: 300px;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background: #1a1a2e;
+  color: white;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background: #4db8ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.newsletter-form button:hover {
+  background: #3aa7e0;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background: #10102f;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
