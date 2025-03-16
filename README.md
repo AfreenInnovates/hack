@@ -21,7 +21,6 @@ Wanted to build a fun and creative app where users can tweak their prompts, expl
 - Allow users to generate **longer stories**, (take token input, temperature input, etc. and utilize those values in the backend).
 - Let users select how many images they want (beyond the current limit of 5).
 - Store these generated art/stories, and show the specific prompt for the best ones created.
-- 
 - Share their stories/artwork?
 - Prolly user authentication?
 
