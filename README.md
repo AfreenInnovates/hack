@@ -10,6 +10,7 @@ This project is a full-stack application utilizing **FastAPI** for the backend, 
 ## Inspiration
 Wanted to develop a playground for creativity—an app that lets users experiment with prompts, explore storytelling, and have fun. It’s particularly engaging for children, who can generate unique stories and images in an intuitive and entertaining way.
 
+
 ## How We Built It
 - **Backend**: FastAPI serves as the backend, handling prompt processing and communication with Nebius-hosted models.
 - **Frontend**: React and CSS make the interface simple and user-friendly.
@@ -18,10 +19,11 @@ Wanted to develop a playground for creativity—an app that lets users experimen
   - Image generation: **black-forest-labs/flux-schnell's** (text-to-image model).
 
 ## Future Enhancements
-- Speech to text, where users rather than typing, would be able to tell speak prompts.
+- speech to text, where users rather than typing, would be able to tell speak prompts.
 - Allow users to generate **longer stories**, (take token input, temperature input, etc. and utilize those values in the backend).
 - Let users select how many images they want (beyond the current limit of 5).
 - Store these generated art/stories, and show the specific prompt for the best ones created.
+- image ---> text ---> speech
 - Share their stories/artwork?
 - Prolly user authentication?
 
