@@ -8,7 +8,7 @@ This project is a full-stack application utilizing **FastAPI** for the backend, 
 - **Image Generation**: The app generates images based on the story using **black-forest-labs/flux-schnell's** text-to-image model. Users can also customize the image prompts for better control. (Supports up to 5 images.)
 
 ## Inspiration
-Wanted to build a fun and creative app where users can tweak their prompts, explore storytelling, and enjoy the process. This is especially great for children, who can generate stories and images in an interactive way.
+Wanted to develop a playground for creativity—an app that lets users experiment with prompts, explore storytelling, and have fun. It’s particularly engaging for children, who can generate unique stories and images in an intuitive and entertaining way.
 
 ## How We Built It
 - **Backend**: FastAPI serves as the backend, handling prompt processing and communication with Nebius-hosted models.
