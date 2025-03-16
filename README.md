@@ -18,6 +18,7 @@ Wanted to build a fun and creative app where users can tweak their prompts, expl
   - Image generation: **black-forest-labs/flux-schnell's** (text-to-image model).
 
 ## Future Enhancements
+- Speech to text, where users rather than typing, would be able to tell speak prompts.
 - Allow users to generate **longer stories**, (take token input, temperature input, etc. and utilize those values in the backend).
 - Let users select how many images they want (beyond the current limit of 5).
 - Store these generated art/stories, and show the specific prompt for the best ones created.
