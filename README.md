@@ -1,6 +1,6 @@
 # First Project: Using Backend + Frontend!
 
-This project is a full-stack application utilizing **FastAPI** for the backend, **Nebius** for using the models from their platform, and **React with CSS** for the frontend. Full Code: [Code](https://github.com/AfreenInnovates/hack/tree/main/art)
+This project is a full-stack application utilizing **FastAPI** for the backend, **Nebius** for using the models from their platform, and **React with CSS** for the frontend. Full Code: [Code](https://github.com/AfreenInnovates/hack/tree/main/art). Demo: [Link](https://www.sprint.dev/projects/46c5e77c-260e-499a-b4c2-850cfff4ff87)
 
 ## What Does the Application Do?
 
